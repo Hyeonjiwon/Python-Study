@@ -5,7 +5,7 @@
 
 
 1. 파이썬 문법 정리 
-   - 
+   - **[[Summary](https://github.com/Hyeonjiwon/Python-Study/tree/main/Programmers)]**
 
 2. Programmers 
    - **[[Summary](https://github.com/Hyeonjiwon/Python-Study/tree/main/Programmers)]**
