@@ -4,7 +4,7 @@ start = time.time()  # 시작 시간 저장
 import re
 
 def solution(new_id):
-    # 
+    # 배열 길이
     if (len(new_id) < 0) or (len(new_id) > 1000):
         raise Exception('Items exceeds the maximum allowed length')
 
@@ -37,15 +37,17 @@ def solution(new_id):
             new_id = new_id[:-1]
     
     # 7 
-    while len(new_id) < 3:
-        new_id = new_id + new_id[-1]
+    #while len(new_id) < 3:
+    #    new_id = new_id + new_id[-1]
+
+    new_id+=new_id[-1]*(3-len(new_id))
 
     return new_id
 
 
 
 def main():
-    id = "...t."    
+    id = "...!@BaT#*..y.abcdefghijklm"    
 
     print(solution(id))
 
