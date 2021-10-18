@@ -7,8 +7,6 @@ def solution(arr):
 
     # return np.mean(arr) # 속도가 느림
 
-
-
 def main():
     arr = [1, 2, 3, 4]
 
