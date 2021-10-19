@@ -1,9 +1,15 @@
-def solution(num):
-    return 'Even' if num%2==0 else 'Odd'
+def solution(arr):
+    if len(arr)==1:
+        answer = [-1]
+        return answer
+
+    else:
+        arr.remove(min(arr))
+        return arr
 
 def main():
-    num = 3
-    print(solution(num))
+    arr = [10]
+    print(solution(arr))
 
 if __name__ == '__main__':
     main()
