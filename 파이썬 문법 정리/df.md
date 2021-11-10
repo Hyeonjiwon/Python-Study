@@ -48,5 +48,10 @@ new_df = flt_df[new_col]
 # 월별 대출 건수
 grouped_df = ddf.groupby(['년', '월']).sum()
 
+# df concat
+# concatenating DataFrame1, 2 along rows, axis=0, default
+
+df_axis0 = pd.concat([df_1, df_2]) # 행 row bind : axis = 0, default
+df_axis1 = pd.concat([df_1, df_3], axis=1) # 열 column bind
 
 ```
