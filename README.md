@@ -12,3 +12,7 @@
    - **[[Level1](https://github.com/Hyeonjiwon/Python-Study/tree/main/Programmers/Level1)]**
    - **[[Level2]()]**
    - **[[Level3]()]**
+
+
+   ### 개발자 필독서
+   > **[2021 개발자 필독서](https://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventPid=42768)**
