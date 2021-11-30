@@ -54,4 +54,9 @@ grouped_df = ddf.groupby(['년', '월']).sum()
 df_axis0 = pd.concat([df_1, df_2]) # 행 row bind : axis = 0, default
 df_axis1 = pd.concat([df_1, df_3], axis=1) # 열 column bind
 
+# na 값을 0으로 대체
+df = df.fillna(0)
+
+# float -> int
+df = df.astype({'일일 확진자': int})
 ```
