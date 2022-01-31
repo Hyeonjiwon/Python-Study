@@ -59,4 +59,8 @@ df = df.fillna(0)
 
 # float -> int
 df = df.astype({'일일 확진자': int})
+
+# 문자열 인덱싱해서 열 생성하기 
+name_split = df_2021["일자"].str[4:6]
+df_2021["month"] = name_split
 ```
