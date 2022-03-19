@@ -15,3 +15,5 @@ for i in range(101):
             cnt += 1
 
 print(cnt)
+
+# 30864 KB	68 ms
